@@ -8,7 +8,7 @@ window.EMICalculator = require("./components/EMICalculator.coffee")
 Chart = require("./components/Chart.coffee")
 EMI = require("./EMI.coffee")
 
-emi = new EMI(1500000, 12.75, 240)
+emi = new EMI(2000000, 12, 48)
 m = emi.summary()
 sc = emi.amortization_schedule()
 
